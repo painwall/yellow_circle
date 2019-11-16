@@ -46,6 +46,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def drawFlag(self, qp):
         r = randint(10, 150)
+
         qp.setBrush(QColor(randint(0, 255), randint(0, 255), randint(0, 255)))
         qp.drawEllipse(150, 150, 150 + r, 150 + r)
 
